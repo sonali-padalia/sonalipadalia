@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sonali Padalia - Personal Webpage</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #282c34;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 1em;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        .container {
+            padding: 2em;
+        }
+        h2 {
+            color: #4CAF50;
+        }
+        .section {
+            margin: 2em 0;
+        }
+        .contact form {
+            display: flex;
+            flex-direction: column;
+        }
+        .contact label {
+            margin-top: 1em;
+        }
+        .contact input, .contact textarea {
+            padding: 0.5em;
+            margin-top: 0.5em;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .contact button {
+            margin-top: 1em;
+            padding: 1em;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .contact button:hover {
+            background-color: #45a049;
+        }
+        footer {
+            text-align: center;
+            padding: 2em 0;
+            background-color: #282c34;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sonali Padalia</h1>
+    </header>
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#work">Work Profile</a>
+        <a href="#blog">Blog</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="about" class="section">
+            <h2>About Me</h2>
+            <p>Experienced Marketing professional with a demonstrated history of working in the Information Technology and Services industry, Product Engineering Services, Digital Transformation - IoT, ML, IoT Security, and Cloud Solutions. Skilled in Product Marketing, Email Marketing, Data Mapping, Data Mining, LinkedIn Sales Navigator, ZoomInfo, Microsoft Office and Web Content Writing. Holding post-graduation degree of MBA in Marketing specialization and bachelor’s degree of Computer Engineering.</p>
+            <p>A day at work includes tasks such as:</p>
+            <ul>
+                <li>Position and promote services with global customers leveraging deep familiarity and understanding of overall engineering R&D services eco-system</li>
+                <li>Identify products / IPs to help accelerate customer engagements as well as generate product-based revenue</li>
+                <li>Plan and execute monthly, quarterly and annual lead generation resulting in opening new accounts</li>
+                <li>Conduct market research and analyze competitors</li>
+                <li>Generate content for the Email Pitch, PPTs and Blogs published on the website</li>
+                <li>Support the sales and business-development team to close strategic business</li>
+                <li>Help the manager to incorporate new ideas and processes</li>
+            </ul>
+            <p>My biggest takeaway along the way? Learn them all. Know them all.</p>
+            <p>Things about me that will excite you to reach out & connect for mutual growth:</p>
+            <ul>
+                <li>I care about results</li>
+                <li>I value people & efforts</li>
+                <li>Organized, always</li>
+            </ul>
+            <p>Outside of work, when I'm not ideating, I'm usually upskilling, watching web series/movies, painting my nails, listening, singing or just cherishing a sip of Chai while reading some chapters from a random find in my library.</p>
+        </section>
+        <section id="work" class="section">
+            <h2>Work Profile</h2>
+            <p><strong>Assistant Manager – Product Marketing</strong>, Nexsales (Sept 2023 – Feb 2024)</p>
+            <p><strong>Senior Marketing Executive</strong>, eInfochips (Feb 2020 – Sept 2023)</p>
+            <p><strong>Relationship Manager</strong>, HDFC Bank (July 2019 – Jan 2020)</p>
+            <p><strong>Intern</strong>, HELLA India Automotive Private Limited (May 2018 – June 2018)</p>
+        </section>
+        <section id="blog" class="section">
+            <h2>Blog</h2>
+            <p>Welcome to my blog! Here, I share insights and updates about marketing, technology, and my personal experiences.</p>
+            <h3>Recent Posts:</h3>
+            <p><strong>Post Title 1</strong>: A brief description of the post.</p>
+            <p><strong>Post Title 2</strong>: A brief description of the post.</p>
+            <p><strong>Post Title 3</strong>: A brief description of the post.</p>
+        </section>
+        <section id="contact" class="section">
+            <h2>Contact</h2>
+            <p>If you would like to get in touch, please fill out the form below or reach out via email at <a href="mailto:padaliasonali@gmail.com">padaliasonali@gmail.com</a>.</p>
+            <form action="mailto:padaliasonali@gmail.com" method="post" enctype="text/plain">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4"></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Sonali Padalia. All rights reserved.</p>
+    </footer>
+</body>
+</html>
